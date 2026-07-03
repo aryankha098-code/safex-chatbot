@@ -1,0 +1,1 @@
+"""SafeX FAQ chatbot package."""
