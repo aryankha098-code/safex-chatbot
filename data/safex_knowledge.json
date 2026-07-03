@@ -1,0 +1,110 @@
+[
+  {
+    "id": "company-overview",
+    "title": "SafeX Solutions overview",
+    "category": "Company",
+    "source": "https://safexsolutions.com/",
+    "content": "SafeX Solutions presents itself as a technology solutions company focused on helping businesses use digital tools more effectively. Its public website highlights services across cybersecurity, AI chatbot automation, web development, digital marketing, creative media production, and training initiatives.",
+    "sample_questions": [
+      "What is SafeX Solutions?",
+      "What does SafeX do?",
+      "Tell me about SafeX."
+    ]
+  },
+  {
+    "id": "services-overview",
+    "title": "SafeX services",
+    "category": "Services",
+    "source": "https://safexsolutions.com/",
+    "content": "SafeX lists a multi-service offering: cyber security solutions, AI chatbot automation, web development, digital marketing, creative media production, and training programs. The strongest public use case for a chatbot is helping visitors quickly understand these service areas and decide which service fits their need.",
+    "sample_questions": [
+      "What services does SafeX offer?",
+      "Which SafeX service is right for my business?",
+      "Does SafeX provide technology services?"
+    ]
+  },
+  {
+    "id": "cybersecurity",
+    "title": "Cyber security solutions",
+    "category": "Services",
+    "source": "https://safexsolutions.com/",
+    "content": "SafeX includes cyber security solutions among its core services. A visitor can ask about this when they need help protecting business systems, reducing digital risk, or improving security awareness before contacting the company for a detailed consultation.",
+    "sample_questions": [
+      "Does SafeX provide cybersecurity services?",
+      "Can SafeX help protect my business online?",
+      "What security services are available?"
+    ]
+  },
+  {
+    "id": "ai-automation",
+    "title": "AI chatbot automation",
+    "category": "Services",
+    "source": "https://safexsolutions.com/",
+    "content": "SafeX includes AI chatbot automation as a service area. This can support customer service, lead capture, FAQs, and repetitive workflow automation. This prototype demonstrates that idea by turning SafeX website content into a small, deployable FAQ assistant.",
+    "sample_questions": [
+      "Can SafeX build an AI chatbot?",
+      "What is AI chatbot automation?",
+      "How can chatbots help my business?"
+    ]
+  },
+  {
+    "id": "web-development",
+    "title": "Web development",
+    "category": "Services",
+    "source": "https://safexsolutions.com/",
+    "content": "SafeX offers web development services for businesses that need a stronger online presence. The public site positions this service alongside digital marketing, creative media, cybersecurity, AI automation, and training.",
+    "sample_questions": [
+      "Does SafeX build websites?",
+      "Can SafeX improve my business website?",
+      "Do they offer web development?"
+    ]
+  },
+  {
+    "id": "digital-marketing",
+    "title": "Digital marketing",
+    "category": "Services",
+    "source": "https://safexsolutions.com/",
+    "content": "SafeX lists digital marketing as one of its service areas. This can help businesses improve online visibility, reach customers, and connect their website or content strategy with broader business goals.",
+    "sample_questions": [
+      "Does SafeX offer digital marketing?",
+      "Can SafeX help with online marketing?",
+      "How can SafeX improve customer reach?"
+    ]
+  },
+  {
+    "id": "creative-media",
+    "title": "Creative media production",
+    "category": "Services",
+    "source": "https://safexsolutions.com/",
+    "content": "SafeX includes creative media production in its public service list. This complements marketing and web work by supporting visual content, campaign assets, and brand communication.",
+    "sample_questions": [
+      "Does SafeX create media content?",
+      "What is creative media production?",
+      "Can SafeX support brand content?"
+    ]
+  },
+  {
+    "id": "training-programs",
+    "title": "Training programs",
+    "category": "Training",
+    "source": "https://safexsolutions.com/sdc/",
+    "content": "SafeX promotes training programs through its public website, including the SafeX Digital Community page. The chatbot can direct learners to check the official site for current program details, eligibility, schedules, and registration information.",
+    "sample_questions": [
+      "What is the SafeX Digital Community?",
+      "Does SafeX offer training programs?",
+      "How can I learn through SafeX?"
+    ]
+  },
+  {
+    "id": "contact",
+    "title": "Contacting SafeX",
+    "category": "Contact",
+    "source": "https://safexsolutions.com/contact/",
+    "content": "For pricing, project scope, schedules, partnerships, or official registration details, visitors should contact SafeX through the contact options on its official website. This prototype avoids inventing private contact details and points users back to the official SafeX site.",
+    "sample_questions": [
+      "How can I contact SafeX?",
+      "Where can I ask about pricing?",
+      "How do I start a project with SafeX?"
+    ]
+  }
+]
