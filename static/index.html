@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SafeX AI Assistant</title>
+    <meta
+      name="description"
+      content="A deployable FAQ chatbot prototype for SafeX Solutions public website content."
+    >
+    <link rel="stylesheet" href="/static/styles.css">
+  </head>
+  <body>
+    <div class="site-chrome" aria-hidden="true">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <main class="app-shell">
+      <section class="chat-panel" aria-label="SafeX AI Assistant">
+        <header class="topbar">
+          <div class="brand-lockup">
+            <div class="brand-mark" aria-hidden="true">
+              <span></span>
+            </div>
+            <div>
+              <p class="eyebrow">contact@safexsolutions.com</p>
+              <h1>SafeX AI Assistant</h1>
+            </div>
+          </div>
+          <div class="top-actions">
+            <span class="status-chip"><span></span> Online</span>
+            <a class="site-link" href="https://safexsolutions.com/" target="_blank" rel="noreferrer">Official site</a>
+          </div>
+        </header>
+
+        <div id="messages" class="messages" aria-live="polite">
+          <article class="message bot">
+            <div class="avatar">SX</div>
+            <div class="bubble">
+              <p>Hello! I can chat normally too. Ask me about SafeX services, AI automation, cybersecurity, web development, digital marketing, creative media, or training programs.</p>
+              <div class="source-row">
+                <span>SafeX public website knowledge base</span>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="quick-prompts" aria-label="Suggested questions">
+          <button type="button" data-question="What services does SafeX offer?"><span>Services</span></button>
+          <button type="button" data-question="Can SafeX build an AI chatbot?"><span>AI chatbots</span></button>
+          <button type="button" data-question="Does SafeX provide cybersecurity services?"><span>Cybersecurity</span></button>
+          <button type="button" data-question="What is the SafeX Digital Community?"><span>Training</span></button>
+        </div>
+
+        <form id="chat-form" class="composer">
+          <label class="sr-only" for="message-input">Message</label>
+          <input
+            id="message-input"
+            name="message"
+            type="text"
+            maxlength="600"
+            autocomplete="off"
+            placeholder="Ask about SafeX..."
+            required
+          >
+          <button type="submit"><span>Send</span></button>
+        </form>
+      </section>
+
+      <aside class="insight-panel" aria-label="Prototype summary">
+        <div class="visual-card">
+          <img src="/static/assets/safex-ai-assistant.png" alt="AI assistant dashboard illustration">
+          <div class="scan-line" aria-hidden="true"></div>
+        </div>
+        <div class="metric-grid">
+          <div>
+            <strong>9</strong>
+            <span>knowledge topics</span>
+          </div>
+          <div>
+            <strong>TF-IDF</strong>
+            <span>retrieval model</span>
+          </div>
+          <div>
+            <strong>Render</strong>
+            <span>deployment ready</span>
+          </div>
+        </div>
+        <div class="note">
+          <p class="eyebrow">Prototype scope</p>
+          <h2>Grounded answers with a clean handoff</h2>
+          <p>When a question is outside the current knowledge base, the assistant sends visitors to the official SafeX contact page.</p>
+          <div class="flow-strip" aria-hidden="true">
+            <span>Ask</span>
+            <span>Retrieve</span>
+            <span>Answer</span>
+          </div>
+        </div>
+      </aside>
+    </main>
+
+    <script src="/static/app.js"></script>
+  </body>
+</html>
